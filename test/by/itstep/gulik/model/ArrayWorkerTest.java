@@ -24,8 +24,7 @@ public class ArrayWorkerTest {
 
     @Test (expected = RuntimeException.class)
     public void testMaxWithNull() {
-        int[] array = {};
-        ArrayWorker.max(array);
+        ArrayWorker.max(null);
 
     }
 }
